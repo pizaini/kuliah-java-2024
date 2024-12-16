@@ -15,14 +15,6 @@ public class Task1BinaryTree {
         this.root = root;
     }
 
-    public void addLeft(Task1Node current, Task1Buku data){
-
-    }
-
-    public void addRight(Task1Node current, Task1Buku data){
-
-    }
-
     public void preOrder(Task1Node parent) {
         if(parent != null){
             /**
@@ -34,6 +26,16 @@ public class Task1BinaryTree {
     }
 
     public void postOrder(Task1Node parent) {
+        if(parent != null){
+            /**
+             * Lengkapi..........
+             * .....
+             * .....
+             */
+        }
+    }
+
+    public void inOrder(Task1Node parent) {
         if(parent != null){
             /**
              * Lengkapi..........
